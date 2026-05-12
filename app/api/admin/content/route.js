@@ -19,6 +19,13 @@ export async function POST(request) {
   }
 
   const ip = request.headers.get("x-forwarded-for") || "local";
-  saveSiteContent(data, session.username, ip);
-  return NextResponse.json({ ok: true });
+  try {
+    saveSiteContent(data, session.username, ip);
+    return NextResponse.json({ ok: true });
+  } catch (error) {
+    return NextResponse.json(
+      { error: "Edição indisponível neste ambiente. Use um banco persistente para produção." },
+      { status: 503 }
+    );
+  }
 }
