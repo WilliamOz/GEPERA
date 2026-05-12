@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" role="img" aria-label="Grafismo marajoara">
+  <g fill="none" stroke="#d2a447" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="8" d="M20 92h36V56h36V20h56v36h36v36h36" />
+    <path stroke-width="5" d="M36 76h20V40h52V76h24V40h52v36h20" />
+    <path stroke-width="5" d="M72 92V72h24V52h48v20h24v20" />
+    <path stroke-width="4" d="M20 28h28M192 28h28M104 104h32" />
+    <path stroke-width="4" d="M56 20v20M184 20v20M120 20v24M120 76v28" />
+  </g>
+</svg>

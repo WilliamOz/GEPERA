@@ -5,8 +5,10 @@ export function Hero({ data }) {
     <section className="hero-next">
       <div className="site-wrap hero-grid-next">
         <div className="hero-copy-next">
-          <span className="kicker">GEPERA</span>
-          <h1 className="animate-fade-rise">{data.settings.siteName}</h1>
+          <div className="hero-brand-next animate-fade-rise" aria-label={data.settings.siteName}>
+            {data.settings.logo && <img src={data.settings.logo} alt="" />}
+            <h1>{data.settings.siteName}</h1>
+          </div>
         </div>
       </div>
     </section>
@@ -17,7 +19,6 @@ export function PageIntro({ eyebrow, title, lead }) {
   return (
     <section className="page-intro-next">
       <div className="site-wrap">
-        <span className="kicker">{eyebrow}</span>
         <h1>{title}</h1>
         {lead && <p>{lead}</p>}
       </div>
@@ -31,7 +32,6 @@ export function Section({ eyebrow, title, lead, children, compact = false }) {
       <div className="site-wrap">
         {(eyebrow || title || lead) && (
           <header className="section-head-next">
-            {eyebrow && <span className="kicker">{eyebrow}</span>}
             {title && <h2>{title}</h2>}
             {lead && <p>{lead}</p>}
           </header>

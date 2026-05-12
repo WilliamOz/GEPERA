@@ -73,7 +73,7 @@ export default function GsapExperience() {
         }
 
         gsap.fromTo(
-          ".hero-copy-next .kicker, .hero-copy-next h1",
+          ".hero-brand-next img, .hero-brand-next h1",
           { y: 34, opacity: 0 },
           { y: 0, opacity: 1, duration: 0.9, ease: "power3.out", stagger: 0.14 }
         );
@@ -102,7 +102,7 @@ export default function GsapExperience() {
 
         gsap.utils
           .toArray(
-            ".section-head-next, .home-feature-card, .glass-card, .content-card, .researcher-model-card, .publication-card-model, .tab-system, .research-map-only"
+            ".section-head-next, .home-feature-card, .glass-card, .content-card, .researcher-model-card, .publication-card-model, .publication-filter-model, .tab-system, .research-map-only"
           )
           .forEach((element, index) => {
             if (element.closest(".site-footer-next")) return;
@@ -168,6 +168,32 @@ export default function GsapExperience() {
             }
           );
         });
+
+        if (window.matchMedia("(max-width: 980px)").matches) {
+          gsap.fromTo(
+            ".mobile-bottom-nav a",
+            { y: 14, opacity: 0 },
+            { y: 0, opacity: 1, duration: 0.55, ease: "power3.out", stagger: 0.035, delay: 0.2 }
+          );
+
+          gsap.utils.toArray(".section-head-next h2, .page-intro-next h1, .researchers-model-head h2").forEach((title) => {
+            gsap.fromTo(
+              title,
+              { x: -18, opacity: 0 },
+              {
+                x: 0,
+                opacity: 1,
+                duration: 0.72,
+                ease: "power3.out",
+                scrollTrigger: {
+                  trigger: title,
+                  start: "top 88%",
+                  toggleActions: "play none none reverse"
+                }
+              }
+            );
+          });
+        }
 
         const mobileDrawer = document.querySelector(".mobile-drawer");
         if (mobileDrawer) {

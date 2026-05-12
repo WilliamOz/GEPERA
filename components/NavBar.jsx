@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import {
   BookOpen,
   CalendarDays,
-  Camera,
   Home,
   Info,
   Mail,
@@ -13,7 +12,6 @@ import {
   Search,
   Target,
   UsersRound,
-  Video,
   X
 } from "lucide-react";
 import { hrefFor, visibleNav } from "@/lib/nav";
@@ -23,12 +21,7 @@ export default function NavBar({ data }) {
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
   const nav = visibleNav(data);
-  const mobileItems = [
-    nav.find((item) => item.id === "home"),
-    nav.find((item) => item.id === "pesquisa"),
-    nav.find((item) => item.id === "acoes"),
-    nav.find((item) => item.id === "publicacoes")
-  ].filter(Boolean);
+  const mobileItems = [...nav, { id: "contato", label: "Contato", href: "#contato" }];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -50,8 +43,13 @@ export default function NavBar({ data }) {
         <button className="menu-button" type="button" onClick={() => setOpen(true)} aria-label="Abrir menu">
           <Menu size={26} strokeWidth={2.2} />
         </button>
+        <span className="menu-visual" aria-hidden="true">
+          <span />
+          <span />
+          <span />
+        </span>
 
-        <nav className="nav-links" aria-label="Navegação principal">
+        <nav className="nav-links" aria-label="Navegacao principal">
           {nav.map((item) => (
             <a key={item.id} className={isActive(item, pathname) ? "is-active" : ""} href={hrefFor(item)}>
               {item.label}
@@ -97,20 +95,16 @@ export default function NavBar({ data }) {
         </div>
       </aside>
 
-      <nav className="mobile-bottom-nav" aria-label="Navegação inferior">
+      <nav className="mobile-bottom-nav" aria-label="Navegacao inferior">
         {mobileItems.map((item) => {
           const Icon = iconFor(item.id);
           return (
-            <a key={item.id} className={isActive(item, pathname) ? "is-active" : ""} href={hrefFor(item)}>
+            <a key={item.id} className={isActive(item, pathname) ? "is-active" : ""} href={item.id === "contato" ? item.href : hrefFor(item)}>
               <Icon size={21} />
-              <span>{shortLabel(item)}</span>
+              <span>{item.label}</span>
             </a>
           );
         })}
-        <a href="#contato">
-          <Mail size={21} />
-          <span>Contato</span>
-        </a>
       </nav>
     </>
   );
@@ -118,7 +112,7 @@ export default function NavBar({ data }) {
 
 function Brand({ data }) {
   return (
-    <a className="brand-lockup" href="/" aria-label="Página inicial do GEPERA">
+    <a className="brand-lockup" href="/" aria-label="Pagina inicial do GEPERA">
       {data.settings.logo ? <img src={data.settings.logo} alt="" /> : <span>G</span>}
       <strong>
         <span>{data.settings.abbreviation}</span>
@@ -136,29 +130,45 @@ function iconFor(id) {
     pesquisa: Search,
     pesquisadores: UsersRound,
     acoes: CalendarDays,
-    publicacoes: BookOpen
+    publicacoes: BookOpen,
+    contato: Mail
   };
   return map[id] || Home;
 }
 
 function isActive(item, pathname = "/") {
+  if (item.id === "contato") return false;
   const href = hrefFor(item);
   if (href === "/") return pathname === "/";
   return pathname === href || pathname?.startsWith(`${href}/`);
 }
 
 function socialIcon(label) {
-  if (label?.toLowerCase().includes("instagram")) return Camera;
-  if (label?.toLowerCase().includes("youtube")) return Video;
+  if (label?.toLowerCase().includes("instagram")) return InstagramIcon;
+  if (label?.toLowerCase().includes("youtube")) return YoutubeIcon;
   return Mail;
 }
 
-function shortLabel(item) {
-  const labels = {
-    home: "Início",
-    pesquisa: "Pesquisar",
-    acoes: "Eventos",
-    publicacoes: "Publicações"
-  };
-  return labels[item.id] || item.label;
+function InstagramIcon({ size = 24 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true" fill="none">
+      <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="2" />
+      <circle cx="12" cy="12" r="4.1" stroke="currentColor" strokeWidth="2" />
+      <circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" />
+    </svg>
+  );
+}
+
+function YoutubeIcon({ size = 24 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true" fill="none">
+      <path
+        d="M21.2 7.7c-.2-.9-.9-1.6-1.8-1.8C17.8 5.5 12 5.5 12 5.5s-5.8 0-7.4.4c-.9.2-1.6.9-1.8 1.8-.4 1.6-.4 4.9-.4 4.9s0 3.3.4 4.9c.2.9.9 1.6 1.8 1.8 1.6.4 7.4.4 7.4.4s5.8 0 7.4-.4c.9-.2 1.6-.9 1.8-1.8.4-1.6.4-4.9.4-4.9s0-3.3-.4-4.9Z"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinejoin="round"
+      />
+      <path d="m10.2 15.4 5-2.8-5-2.8v5.6Z" fill="currentColor" />
+    </svg>
+  );
 }
