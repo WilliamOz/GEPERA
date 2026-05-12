@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>GEPERA - Objetivos & Metas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <div class="logo-container">
+                        <div class="logo-icon"><img src="gepera-logo.png" alt="Logo GEPERA" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                        <div class="brand-text">
+                            <span class="brand-title">GEPERA</span>
+                            <span class="brand-subtitle">Grupo de Estudos e Pesquisas em Ensino Religioso na Amazônia</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Página Inicial</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="objetivos.html" class="nav-link active">Objetivos & Metas</a></li>
+                    <li><a href="pesquisa.html" class="nav-link">Pesquisa</a></li>
+                    <li><a href="pesquisadores.html" class="nav-link">Pesquisadores</a></li>
+                    <li><a href="acoes.html" class="nav-link">Ações</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Objectives Section with Tabs -->
+    <section class="objectives-section" style="padding-top: 140px;">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nossa Direção</span>
+                <h2 class="section-title">Objetivos & Metas</h2>
+            </div>
+            
+            <div class="objectives-content">
+                <!-- Tabs Navigation -->
+                <div class="objectives-tabs">
+                    <button class="tab-button active" data-tab="objetivo-geral">Objetivo Geral</button>
+                    <button class="tab-button" data-tab="objetivos-especificos">Objetivos Específicos</button>
+                    <button class="tab-button" data-tab="metas">Metas</button>
+                </div>
+                
+                <!-- Tab Contents Wrapper -->
+                <div class="objectives-tab-container">
+                    <!-- Tab Content: Objetivo Geral -->
+                    <div id="objetivo-geral" class="tab-content active">
+                        <div class="objective-card-single">
+                            <p>Contribuir para a ampliação da produção científica no campo educacional amazônico, por meio de estudos e pesquisas na área de Ensino Religioso, considerando a indissociabilidade ensino, pesquisa e extensão universitária.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Tab Content: Objetivos Específicos -->
+                    <div id="objetivos-especificos" class="tab-content">
+                        <div class="objectives-grid">
+                            <div class="objective-card">
+                                <div class="objective-card-content">
+                                    <p>Fomentar estudos e pesquisas que revelem as tendências educacionais que nortearam ou norteiam as práticas educativas na área de Ensino Religioso em seus múltiplos aspectos, no âmbito da graduação e da pós-graduação.</p>
+                                </div>
+                            </div>
+                            <div class="objective-card">
+                                <div class="objective-card-content">
+                                    <p>Contribuir para a formação inicial e continuada de professores que atuam na educação básica, por meio de projetos de ensino e de extensão universitária, fundamentados nos novos paradigmas e diretrizes do Ensino Religioso.</p>
+                                </div>
+                            </div>
+                            <div class="objective-card">
+                                <div class="objective-card-content">
+                                    <p>Produzir materiais pedagógicos na área de Ensino Religioso fundamentados na(s) diversidade(s), que contribuam para a melhoria do trabalho pedagógico dos professores da educação básica.</p>
+                                </div>
+                            </div>
+                            <div class="objective-card">
+                                <div class="objective-card-content">
+                                    <p>Favorecer a articulação, o diálogo e a troca de experiências entre a Universidade e as escolas de Educação Básica, bem como com as Secretarias de Educação e os Conselhos de Educação, na perspectiva da construção da qualidade no ensino.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tab Content: Metas -->
+                    <div id="metas" class="tab-content">
+                        <div class="objectives-grid" style="grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));">
+                            <div class="objective-card">
+                                <div class="objective-card-content">
+                                    <p>Ampliar estudos e pesquisas acerca de Tendências Educacionais no Ensino Religioso na Amazônia.</p>
+                                </div>
+                            </div>
+                            <div class="objective-card">
+                                <div class="objective-card-content">
+                                    <p>Fomentar a ampliação da extensão universitária, por meio do estudo e pesquisas a respeito da Formação de Professores de Ensino Religioso, em contextos amazônicos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                </div>
+                <div class="footer-links"><h4>Links Rápidos</h4><ul><li><a href="index.html">Página Inicial</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="objetivos.html">Objetivos & Metas</a></li><li><a href="pesquisa.html">Pesquisa</a></li><li><a href="pesquisadores.html">Pesquisadores</a></li><li><a href="acoes.html">Ações</a></li></ul></div>
+                <div class="footer-contact"><h4>Contato</h4><p>Universidade do Estado do Pará</p><p>Licenciatura e Pós-Graduação em<br>Ciências da Religião</p></div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 GEPERA - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

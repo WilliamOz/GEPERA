@@ -1,0 +1,515 @@
+{
+  "version": 3,
+  "settings": {
+    "abbreviation": "GEPERA",
+    "siteName": "Grupo de Estudos e Pesquisa em Ensino Religioso na Amazônia",
+    "tagline": "",
+    "description": "Entre as ações desenvolvidas pelo Gepera, destacam-se os Painéis de Relatos de Experiências, as Exposições sobre Símbolos Religiosos, os Colóquios sobre o Livro Didático e as Formações Continuadas de Professores, promovendo o diálogo entre ensino, pesquisa e extensão no contexto amazônico.",
+    "institution": "UEPA – Universidade do Estado do Pará – Campus I",
+    "program": "CCSE (Centro de Ciências Sociais e Educação)",
+    "city": "Belém – PA",
+    "year": "2026",
+    "logo": "assets/atual/gepera-logo.png",
+    "footerText": "2026 Grupo de Estudos e Pesquisas em Ensino Religioso na Amazônia | Todos os direitos reservados",
+    "contactLines": [
+      "UEPA – Universidade do Estado do Pará – Campus I",
+      "CCSE (Centro de Ciências Sociais e Educação)",
+      "Endereço: Tv. Djalma Dutra, s/n – Telégrafo, Belém – PA, 66050-540",
+      "Telefone: (91) 98018-4822",
+      "Email:"
+    ],
+    "socialLinks": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/gepera_uepa/"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://youtube.com/@geperauepa?si=RcVlDeY9C3aoI3ox"
+      }
+    ],
+    "footerLogos": [
+      {
+        "label": "UEPA",
+        "image": "assets/extra/footer-uepa.png",
+        "url": "https://www.uepa.br/"
+      },
+      {
+        "label": "ORCID",
+        "image": "assets/extra/footer-orcid.png",
+        "url": "https://orcid.org/"
+      },
+      {
+        "label": "Diretório dos Grupos de Pesquisa no Brasil Lattes",
+        "image": "assets/extra/footer-lattes.png",
+        "url": "https://lattes.cnpq.br/web/dgp"
+      },
+      {
+        "label": "CNPq CAPES",
+        "image": "assets/extra/footer-cnpq-capes.png",
+        "url": "https://www.gov.br/cnpq/pt-br"
+      }
+    ]
+  },
+  "theme": {
+    "primary": "#092f26",
+    "secondary": "#17624e",
+    "accent": "#d2a447",
+    "ink": "#ffffff",
+    "muted": "#d7e8df",
+    "paper": "#082c24",
+    "surface": "#124538",
+    "layout": "editorial",
+    "line": "rgba(255, 255, 255, 0.16)",
+    "soft": "#0d392f"
+  },
+  "nav": [
+    {
+      "id": "home",
+      "label": "Início",
+      "type": "core",
+      "href": "index.html",
+      "visible": true
+    },
+    {
+      "id": "sobre",
+      "label": "Sobre",
+      "type": "core",
+      "href": "sobre.html",
+      "visible": false
+    },
+    {
+      "id": "objetivos",
+      "label": "Objetivos & Metas",
+      "type": "core",
+      "href": "objetivos-metas.html",
+      "visible": true
+    },
+    {
+      "id": "pesquisa",
+      "label": "Pesquisa",
+      "type": "core",
+      "href": "pesquisa.html",
+      "visible": true
+    },
+    {
+      "id": "pesquisadores",
+      "label": "Pesquisadores",
+      "type": "core",
+      "href": "pesquisadores.html",
+      "visible": true
+    },
+    {
+      "id": "acoes",
+      "label": "Simpósio | Seminário",
+      "type": "core",
+      "href": "simpósio-seminário.html",
+      "visible": true
+    },
+    {
+      "id": "publicacoes",
+      "label": "Publicações",
+      "type": "core",
+      "href": "publicações.html",
+      "visible": true
+    }
+  ],
+  "customPages": [],
+  "pages": {
+    "home": {
+      "eyebrow": "GEPERA",
+      "title": "GEPERA - Grupo de Estudos e Pesquisa em Ensino Religioso na Amazônia",
+      "lead": "",
+      "heroImage": "patterns/green-religious-pattern.png",
+      "introTitle": "GEPERA - Grupo de Estudos e Pesquisa em Ensino Religioso na Amazônia",
+      "intro": [],
+      "stats": [],
+      "highlights": []
+    },
+    "sobre": {
+      "eyebrow": "Sobre",
+      "title": "Sobre o Grupo de Pesquisa GEPERA",
+      "paragraphs": [
+        "O Grupo de Estudos e Pesquisa em Ensino Religioso na Amazônia (Gepera) foi criado em 2015 para fortalecer o vínculo entre Religião e Educação, ampliando o espaço de estudos e pesquisas na área.",
+        "Sua fundação resultou do engajamento político-acadêmico de professores e pesquisadores que buscavam discutir o fenômeno religioso em diálogo interdisciplinar com a educação. A partir de 2023, o Gepera intensificou a integração entre a Licenciatura e a Pós-Graduação em Ciências da Religião, promovendo ações de pesquisa, extensão universitária e cooperação com outros grupos da área.",
+        "Nesse contexto, organiza eventos científicos que unem ensino, pesquisa e extensão, como os Painéis de Relatos de Experiências, as Exposições sobre Símbolos Religiosos e os Colóquios sobre Livro Didático e Formação Continuada de Professores, realizados em parceria com sistemas de ensino de municípios paraenses. Essas iniciativas consolidam o Gepera como espaço de produção acadêmica e diálogo, envolvendo professores e estudantes da graduação e pós-graduação, e reafirmam sua importância na valorização do Ensino Religioso na Amazônia."
+      ],
+      "carousel": [
+        {
+          "title": "Registro do grupo",
+          "caption": "Atividades acadêmicas do GEPERA.",
+          "image": "assets/atual/carousel-1.jpeg"
+        },
+        {
+          "title": "Ações integradas",
+          "caption": "Ensino, pesquisa e extensão em diálogo.",
+          "image": "assets/atual/carousel-2.jpeg"
+        },
+        {
+          "title": "Formação e pesquisa",
+          "caption": "Vivências formativas em Ensino Religioso.",
+          "image": "assets/atual/carousel-3.jpeg"
+        },
+        {
+          "title": "Produção coletiva",
+          "caption": "Participação de docentes e discentes.",
+          "image": "assets/atual/carousel-4.jpeg"
+        },
+        {
+          "title": "Debates acadêmicos",
+          "caption": "Diversidade religiosa e educação.",
+          "image": "assets/atual/carousel-5.jpeg"
+        },
+        {
+          "title": "Experiências compartilhadas",
+          "caption": "Pesquisa em contextos amazônicos.",
+          "image": "assets/atual/carousel-6.jpeg"
+        }
+      ],
+      "timeline": []
+    },
+    "objetivos": {
+      "eyebrow": "Objetivos & Metas",
+      "title": "Objetivos & Metas",
+      "general": "Contribuir para a ampliação da produção científica no campo educacional amazônico, por meio de estudos e pesquisas na área de Ensino Religioso, considerando a indissociabilidade ensino, pesquisa e extensão universitária.",
+      "specific": [
+        "Fomentar estudos e pesquisas que revelem as tendências educacionais que nortearam ou norteiam as práticas educativas na área de Ensino Religioso em seus múltiplos aspectos, no âmbito da graduação e da pós-graduação.",
+        "Contribuir para a formação inicial e continuada de professores que atuam na educação básica, por meio de projetos de ensino e de extensão universitária, fundamentados nos novos paradigmas e diretrizes do Ensino Religioso.",
+        "Produzir materiais pedagógicos na área de Ensino Religioso fundamentados na (s) diversidade (s), que contribuam para a melhoria do trabalho pedagógico dos professores da educação básica.",
+        "Favorecer a articulação, o diálogo e a troca de experiências entre a Universidade e as escolas de Educação Básica, bem como com as Secretarias de Educação e os Conselhos de Educação, na perspectiva da construção da qualidade no ensino."
+      ],
+      "goals": [
+        "Ampliar estudos e pesquisas acerca de Tendências Educacionais no Ensino Religioso na Amazônia;",
+        "Fomentar a ampliação da extensão universitária, por meio do estudo e pesquisas a respeito da Formação de Professores de Ensino Religioso, em contextos amazônicos."
+      ]
+    },
+    "pesquisa": {
+      "eyebrow": "Pesquisa",
+      "title": "Pesquisa",
+      "images": [
+        {
+          "image": "assets/extra/pesquisa-pessoas.png",
+          "caption": "Pesquisa"
+        },
+        {
+          "image": "assets/extra/pesquisa-mapa.png",
+          "caption": "Pesquisa"
+        }
+      ],
+      "lines": [
+        {
+          "title": "Tendências Educacionais no Ensino Religioso",
+          "body": "Realização de estudos e pesquisas que revelem as tendências educacionais que nortearam/norteiam as práticas educativas na área de Ensino Religioso em seus múltiplos aspectos."
+        },
+        {
+          "title": "Formação de Professores de Ensino Religioso",
+          "body": "Realização de estudos e pesquisas relacionados à formação inicial e continuada de professores de Ensino Religioso ao longo da história da educação brasileira e amazônica."
+        }
+      ],
+      "tabs": [
+        {
+          "label": "Resumo",
+          "title": "Resumo",
+          "body": "O Grupo possui duas linhas: Tendências Educacionais no Ensino Religioso, por meio da qual se propõe à realização de estudos e pesquisas que revelem as tendências educacionais que nortearam/norteiam as práticas educativas na área de Ensino Religioso em seus múltiplos aspectos, quais sejam: paradigmas de ensino e suas práticas pedagógicas em ambientes escolares e não escolares, currículo, gestão, legislação, produção de recursos pedagógicos, multiculturalismo e interculturalidade, políticas educacionais e o papel do estado; e a Formação de Professores de Ensino Religioso, voltada para a realização de estudos e pesquisas relacionados à formação inicial e continuada de professores de Ensino Religioso ao longo da história da educação brasileira e amazônica, diretrizes curriculares para a formação de professores de Ensino Religioso, perfil dos professores, experiências formativas norteadas pelo paradigma dos direitos humanos e da diversidade cultural e religiosa da sociedade, desafios para a formação e prática docente no Ensino Religioso, assim como aplicação das leis 10.639/2003 e 11.645/2008, na área do Ensino Religioso, que estabelecem a obrigatoriedade do ensino de história e cultura afro-brasileira e indígena na educação básica."
+        },
+        {
+          "label": "Descrição",
+          "title": "Descrição",
+          "body": "O GEPERA, coordenado, prioritariamente, por professores efetivos da Universidade do Estado do Pará (UEPA), congrega estudantes da graduação e da Pós-Graduação do Centro de Ciências Sociais e Educação (CCSE), tanto da capital como do interior do Estado, professores de Ensino Religioso e demais profissionais que atuam na Educação Básica, bem como pesquisadores de outras Instituições de Ensino Superior, que tenham interesse e afinidade com a produção de conhecimentos em torno das temáticas de estudos e pesquisas propostas pelo Grupo."
+        },
+        {
+          "label": "Tempo de Atuação",
+          "title": "Tempo de Atuação",
+          "body": "O Grupo atua há quase 10 anos na área do Ensino Religioso na Amazônia, promovendo o estudo do fenômeno religioso, mediante da interface da educação básica com a graduação e pós-graduação."
+        }
+      ]
+    },
+    "pesquisadores": {
+      "eyebrow": "Pesquisadores",
+      "title": "Pesquisadores",
+      "subtitle": "Coordenadores do GEPERA",
+      "researchers": [
+        {
+          "role": "Coordenadores do GEPERA",
+          "name": "Prof. Dr. Francisco Willams Campos Lima",
+          "area": "",
+          "photo": "assets/atual/professor-francisco.jpeg",
+          "bio": "Doutor e Mestre em Educação com ênfase em Políticas Educacionais pela Universidade Federal do Pará (UFPA). É Professor Adjunto da Universidade do Estado do Pará (UEPA), onde trabalha na graduação e na Pós-Graduação. Integrou o Comitê Científico Interno. Coordena o Estágio Supervisionado do Curso de Licenciatura em Ciências da Religião e integra o corpo docente permanente do Programa de Pós-graduação em Ciências da Religião (PPGCR) orientando em nível de mestrado e doutorado. É Vice-Coordenador o Fórum Estadual de Educação do Pará (FEE/PA). Atua como membro Rede Internacional Interdisciplinar de Pesquisadores em Desenvolvimento de Territórios (Rede-TER). É membro da Associação Nacional de Política e Administração da Educação (ANPAE) e da Associação de Pós-graduação e Pesquisa em Teologia e Ciências da Religião (ANPTECRE).",
+          "lattes": "http://lattes.cnpq.br/3830731699132201",
+          "email": ""
+        },
+        {
+          "role": "Coordenadores do GEPERA",
+          "name": "Profª Drª. Maria do Socorro Vasconcelos Pereira",
+          "area": "",
+          "photo": "assets/atual/professora-maria.jpeg",
+          "bio": "Doutora em Educação (PPGED/UFPA), na Linha de Políticas Públicas Educacionais. Mestra em Educação (PPGED/UFPA). Especialista em Gestão Escolar pelo Centro Universitário do Pará - CESUPA e Licenciada em Pedagogia pela Universidade Federal do Pará. Professora da Universidade do Estado do Pará atuando na graduação e no Programa de Pós-graduação em Ciências da Religião (PPGCR) orientando em nível de mestrado e doutorado. Atua como membro Rede Internacional Interdisciplinar de Pesquisadores em Desenvolvimento de Territórios (Rede-TER), do Fórum Regional de Educação do Campo da Região Tocantina II - FORECAT II, membro da Associação Brasileira de Currículo, da Associação Nacional de Pesquisa em Financiamento da Educação e da Associação Brasileira de Alfabetização. É vinculada como colaboradora ao Programa de Pós-graduação em Currículo e Gestão da Escola Básica (PPEB-UFPA). É associada da Associação Internacional de Pesquisa na Graduação em Pedagogia (AINPGP), da Associação Nacional de Política e Administração da Educação (ANPAE) e da Associação Nacional de Pós-Graduação e pesquisa em Educação (ANPED).",
+          "lattes": "http://lattes.cnpq.br/8464004094228951",
+          "email": ""
+        },
+        {
+          "role": "Profª Mestra",
+          "name": "Iolanda Rodrigues da Costa",
+          "area": "",
+          "photo": "",
+          "bio": "Possui graduação em LICENCIATURA PLENA EM PEDAGOGIA (UFPA/PA- 1987), ESPECIALIZAÇÃO EM ENSINO FUNDAMENTAL (UNAMA/PA-1996) e MESTRADO EM EDUCAÇÂO (UNIMEP/SP-2000). Atuou como pesquisadora na Secretaria Municipal de Educação de Belém, professora horista na Faculdade Integrada Brasil-Amazônia - FIBRA. Atualmente é professora efetiva na Universidade do Estado do Pará, é membro do Grupo de Pesquisa GEPERA, desenvolve estudos e pesquisas nas áreas de: avaliação- ensino superior- democratização- prática pedagógica- gestão educacional- políticas públicas educacionais- ensino religioso escolar- formação de professores.",
+          "lattes": "http://lattes.cnpq.br/9620920160419973",
+          "email": ""
+        },
+        {
+          "role": "Mestre",
+          "name": "Alex Coimbra Sales",
+          "area": "",
+          "photo": "",
+          "bio": "Mestre em Ciências da Religião pelo Programa de Pós-Graduação em Ciências da Religião (PPGCR) da Universidade do Estado do Pará (UEPA), na linha de pesquisa Religião e Sociedades, alinhada à Área 44 da CAPES. Graduado e licenciado em Ciências da Religião (UEPA), licenciado em Ensino Religioso (UFPA), especialista em Ciências da Religião (IESPES) e graduado em Tecnologia em Processamento de Dados (UNAMA). Integrante do Grupo de Estudos e Pesquisa em Ensino Religioso da Amazônia (GEPERA/UEPA), com pesquisas voltadas ao Ensino Religioso, currículo e interculturalidade. Possui 27 anos de experiência como professor de Ensino Religioso na rede privada, sendo 19 anos na Rede Marista, e, desde 2013, é professor efetivo da Secretaria de Estado de Educação do Pará (SEDUC-PA). Atua também na formação docente como preceptor de Estágio Supervisionado no curso de Ciências da Religião e integrou a coordenação do Fórum Nacional Permanente do Ensino Religioso (FONAPER) no período de 2014 a 2016.",
+          "lattes": "http://lattes.cnpq.br/1624848971842257",
+          "email": ""
+        },
+        {
+          "role": "Mestra",
+          "name": "Adma Conceição Danin de Lima",
+          "area": "",
+          "photo": "",
+          "bio": "Mestra em Educação/ PPGED - Universidade do Estado do Pará. Especialista em Psicopedagogia pela FACUMINAS (2023). Graduada em Licenciatura Plena em Ciências da Religião (2022), pela Universidade do Estado do Pará (UEPA). Graduada em Ciências Sociais -Bacharelado pela União das Escolas Superiores do Pará (1991). Membro no Grupo de Pesquisa: GEPERA - Grupo de Estudos e Pesquisas em Ensino Religioso na Amazônia, certificado pelo CNPq.Email: admadanindelima@gmail.com / adma.lima@aluno.uepa.br / admadaninlima@gmail.com.",
+          "lattes": "http://lattes.cnpq.br/0752380769352678",
+          "email": ""
+        },
+        {
+          "role": "Mestranda",
+          "name": "Haíssa Ramos dos Santos",
+          "area": "",
+          "photo": "",
+          "bio": "Mestranda em Ciências da Religião/UEPA (2024) atua em pesquisa sobre fundamentalismo religioso e escola sem partido. Graduada em Letras/Espanhol pela Universidade Federal do Pará (2016). Especialista em linguagens, suas tecnologias e o mundo do trabalho/UFPI (2023). Especialista em Currículo e prática docente nos anos iniciais do ensino fundamental/UFPI (2024). Atua em pesquisa e extensão pelo grupo de pesquisa ARTEMI/UEPA e GEPERA/UEPA",
+          "lattes": "http://lattes.cnpq.br/7434404783152062",
+          "email": ""
+        },
+        {
+          "role": "Mestranda",
+          "name": "Mayra Danin de Lima",
+          "area": "",
+          "photo": "",
+          "bio": "Atualmente Mestranda em Ciências da Religião pela Universidade do Estado do Pará (UEPA), com bolsa CAPES. É Bacharel em Serviço Social (UNAMA) e Licenciada em Ciências da Religião (UEPA), com MBA em Gestão de Pessoas (UNOPAR). Atuou como monitora bolsista nas disciplinas de Epistemologia das Ciências do Fenômeno Religioso, Introdução às Ciências da Religião e Antropologia Cultural na UEPA. Também foi bolsista de iniciação científica PROPESP-UEPA. É integrante do Grupo de Estudos e Pesquisas em Ensino Religioso na Amazônia (GEPERA). Possui publicações e apresentações em eventos, com foco na relação entre o sagrado e o urbano na Amazônia. Suas áreas de atuação incluem Ciências Sociais Aplicadas (Serviço Social) e Ciências Humanas (Sociologia, com ênfase em Ciência da Religião).",
+          "lattes": "http://lattes.cnpq.br/3674139375237305",
+          "email": ""
+        },
+        {
+          "role": "Mestra",
+          "name": "Paula Soares Rodrigues",
+          "area": "",
+          "photo": "",
+          "bio": "Possuo graduação em Pedagogia pela Universidade Paulista e atuei como coordenadora pedagógica na Fundação Centro de Referência em Educação Ambiental Prof. Eidorfe Moreira. Tenho especializações em Educação Especial e Inclusiva, Coordenação e Gestão Escolar, e Gestão e Docência no Ensino Superior. Concluí mestrado em Planejamento e Políticas Públicas. Atuei como professora na Secretaria de Educação do Estado do Pará. Atualmente, sou assessora pedagógica na Universidade Estadual do Pará e estou cursando doutorado no Programa de Pós-Graduação em Ciências da Religião. Membro do colegiado do curso de graduação em Ciências da Religião. Docente no curso de graduação em Pedagogia, menbro da comissão de bolsas do programa de pós-graduação em Ciências da Religião.",
+          "lattes": "http://lattes.cnpq.br/5034376270742578",
+          "email": ""
+        },
+        {
+          "role": "Mestranda",
+          "name": "Raqueline Brito da Cruz",
+          "area": "",
+          "photo": "",
+          "bio": "Possui graduação em Teologia pela Faculdade Teológica Batista Equatorial - FATEBE (2015) e Licenciatura em Ciências da Religião pela Universidade do Estado do Pará - Uepa (2024). Mestre em Ciências da Religião pela Universidade do Estado do Pará - Uepa (2026). Membro do Grupo de Pesquisa Arte, Religião e Memória - ARTEMI e do Grupo de Estudos e Pesquisas em Ensino Religioso na Amazônia (GEPERA). Atua com formação de professores do ensino religioso, um projeto do grupo de pesquisa GEPERA/Uepa. Conselheira Bíblica, formada pela Escola Teológica Charles Spurgeon (2024). E atualmente, é professora convidada do INSTITUTO BÍBLICO DA ASSEMBLEIA DE DEUS - MINISTÉRIO MARITUBA (IBADMA), para ministrar as disciplinas Religiões Mundiais e Filosofia da Religião. É membro da Rede Latino-Americana de Estudos Pentecostais (Relep Brasil).",
+          "lattes": "http://lattes.cnpq.br/3759481949473931",
+          "email": ""
+        },
+        {
+          "role": "Mestrando",
+          "name": "Renilson de Brito Fagundes",
+          "area": "",
+          "photo": "",
+          "bio": "Graduado em Licenciatura Plena em Ciências da Religião pela Universidade do Estado do Pará UEPA (2025). Pós-graduado Lato Sensu em Garantia de Direitos e Política de Cuidados da Criança e do Adolescente pela Universidade de Brasília Unb (2025). Discente no Curso de Mestrando em Ciências da Religião, na linha de pesquisa Religião e Sociedade pela Universidade do Estado do Pará UEPA (2026). Atualmente, sua pesquisa concentra-se nos saberes locais aplicados às práticas de cuidado à vida na Amazônia Paraense, com ênfase na educação em espaços não escolares, na espiritualidade dos povos indígenas e comunidades tradicionais, em localidades como: Terra Indígena Tembé (Alto Rio Guamá), Terra Indígena Suruí Aikewara (São Geraldo do Araguaia/PA), Quilombo do Umarizal (Baião/PA) e Ilha de Itapuá (Vigia/PA). Atua como pesquisador colaborador,Karuara: Saberes, Cosmopolíticas, Modos de Vida, Paisagens e Ontologias das Religiões na Amazônia-GEPERA (UEPA/CNPq) e no Grupo de Estudos e Pesquisa em Ensino Religioso na Amazônia(UEPA/CNPq).Email:renilson.dbfagundes@aluno.uepa.br | Site: https://diarioetnografico.com.br",
+          "lattes": "http://lattes.cnpq.br/0736099768635409",
+          "email": ""
+        },
+        {
+          "role": "Mestranda",
+          "name": "Thaynara de Souza Duarte",
+          "area": "",
+          "photo": "",
+          "bio": "Mestranda do programa de Pós graduação em Ciências da Religião (PPGCR) pela Universidade do Estado do Pará (UEPA). Formada em Licenciatura em Ciências da religião pela Universidade do Estado do Pará (UEPA). Membro do Grupo de Estudos e Pesquisas em Ensino Religioso na Amazônia (GEPERA), desenvolvendo pesquisas voltadas ao âmbito da educação, do Ensino religioso e da Formação de Professores. Atuou como bolsista no programa institucional de bolsas de iniciação científica e de desenvolvimento tecnológico e inovação PIBIC/CNPq (2020-2021) e (2024-2025)",
+          "lattes": "http://lattes.cnpq.br/3061524655169131",
+          "email": ""
+        },
+        {
+          "role": "Mestranda",
+          "name": "Merivane Marinho da Luz",
+          "area": "",
+          "photo": "",
+          "bio": "Mestranda do programa de Pós graduação em Ciências da Religião (PPGCR) pela Universidade do Estado do Pará (UEPA). Professora, licenciada plena em pedagogia pela Universidade do Estado do Pará (UEPA). Especialista em Currículo e prática docente nos anos iniciais do ensino fundamental pela Universidade federal do Piauí. Aperfeiçoada em Diversidade na escola pela Universidade Federal do Tocantins (UFT). Pós Graduada em Gestão Escolar e Coordenação Pedagógica. Atua como Formadora do Centro de Formação Pedagógica - CFORMA da rede de ensino do Município de Capitão Poço-PA. Possui experiênsia na área da Educação de Jovens e Adultos, educação infantil e educação no campo. Pesquisadora nas áreas da Diversidade cultural religiosa na Amazônia com ênfase dos estudos nas religiões de matrizes Afracanas, e de Saberes Culturais e Educação na Amazônia com foco na educação de jovens e adultos - EJA. Durante sua trajetória acadêmica na Universidade do Estado do Pará - UEPA, atuou como assessora pedagógica no cursinho popular, de natureza de projeto de extenção, estendendo suas atividades no Centro acadêmico de pedagogia, nos cargos de Diretora de Pesquisa e Extenção, secretária e Diretora de ensino. Possui publicações em anais de eventos do programa de pós graduação (PPGED-UEPA) e nos anais do Fórum Internacional de Pedagogia (FIPED).",
+          "lattes": "http://lattes.cnpq.br/3296089598807594",
+          "email": ""
+        }
+      ]
+    },
+    "acoes": {
+      "eyebrow": "Simpósio | Seminário",
+      "title": "Simpósio | Seminário",
+      "intro": "",
+      "actions": [
+        {
+          "title": "Exposição símbolos sagrados (2024)",
+          "category": "",
+          "date": "",
+          "location": "",
+          "description": "",
+          "link": "",
+          "images": [
+            {
+              "image": "assets/atual/acao1-1.jpg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-2.jpeg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-3.jpg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-4.jpeg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-5.jpg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-6.jpg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-7.jpg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-8.jpg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-9.jpg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-10.jpeg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-11.jpg",
+              "caption": "Exposição Símbolos Sagrados"
+            },
+            {
+              "image": "assets/atual/acao1-12.jpeg",
+              "caption": "Exposição Símbolos Sagrados"
+            }
+          ]
+        },
+        {
+          "title": "Painel de relatos de experiência (2024)",
+          "category": "",
+          "date": "",
+          "location": "",
+          "description": "",
+          "link": "",
+          "images": [
+            {
+              "image": "assets/atual/acao2-1.jpg",
+              "caption": "Painel de Relatos de Experiência"
+            },
+            {
+              "image": "assets/atual/acao2-2.jpeg",
+              "caption": "Painel de Relatos de Experiência"
+            },
+            {
+              "image": "assets/atual/acao2-3.jpeg",
+              "caption": "Painel de Relatos de Experiência"
+            },
+            {
+              "image": "assets/atual/acao2-4.jpeg",
+              "caption": "Painel de Relatos de Experiência"
+            },
+            {
+              "image": "assets/atual/acao2-5.jpeg",
+              "caption": "Painel de Relatos de Experiência"
+            }
+          ]
+        },
+        {
+          "title": "Sequência didática (COP 30) - 2025",
+          "category": "",
+          "date": "",
+          "location": "",
+          "description": "",
+          "link": "",
+          "images": [
+            {
+              "image": "assets/atual/acao3-1.jpg",
+              "caption": "Sequência Didática COP 30"
+            },
+            {
+              "image": "assets/atual/acao3-2.jpeg",
+              "caption": "Sequência Didática COP 30"
+            },
+            {
+              "image": "assets/atual/acao3-3.jpeg",
+              "caption": "Sequência Didática COP 30"
+            },
+            {
+              "image": "assets/atual/acao3-4.jpeg",
+              "caption": "Sequência Didática COP 30"
+            },
+            {
+              "image": "assets/atual/acao3-5.jpeg",
+              "caption": "Sequência Didática COP 30"
+            },
+            {
+              "image": "assets/atual/acao3-6.jpeg",
+              "caption": "Sequência Didática COP 30"
+            },
+            {
+              "image": "assets/atual/acao3-7.jpeg",
+              "caption": "Sequência Didática COP 30"
+            },
+            {
+              "image": "assets/atual/acao3-8.jpeg",
+              "caption": "Sequência Didática COP 30"
+            },
+            {
+              "image": "assets/atual/acao3-9.jpeg",
+              "caption": "Sequência Didática COP 30"
+            },
+            {
+              "image": "assets/atual/acao3-10.jpeg",
+              "caption": "Sequência Didática COP 30"
+            }
+          ]
+        }
+      ],
+      "publications": [
+        {
+          "title": "A formação inicial dos profissionais do ensino religioso para o currículo da escola básica",
+          "type": "Artigos",
+          "authors": "",
+          "year": "",
+          "venue": "",
+          "summary": "",
+          "link": "assets/atual/A formação inicial dos profissionais do ensino religioso para o currículo da escola básica.pdf",
+          "cover": "assets/atual/capa-artigo1.png"
+        },
+        {
+          "title": "Ensino religioso e o buen vivir",
+          "type": "Artigos",
+          "authors": "",
+          "year": "",
+          "venue": "",
+          "summary": "",
+          "link": "assets/atual/Ensino religioso e o buen vivir.pdf",
+          "cover": "assets/atual/capa-artigo2.png"
+        }
+      ]
+    },
+    "publicacoes": {
+      "eyebrow": "Publicações",
+      "title": "Publicações",
+      "lead": "Artigos"
+    }
+  }
+}

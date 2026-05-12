@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>GEPERA - Sobre</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <div class="logo-container">
+                        <div class="logo-icon"><img src="gepera-logo.png" alt="Logo GEPERA" style="width: 100%; height: 100%; object-fit: contain;"></div>
+                        <div class="brand-text">
+                            <span class="brand-title">GEPERA</span>
+                            <span class="brand-subtitle">Grupo de Estudos e Pesquisas em Ensino Religioso na Amazônia</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Página Inicial</a></li>
+                    <li><a href="sobre.html" class="nav-link active">Sobre</a></li>
+                    <li><a href="objetivos.html" class="nav-link">Objetivos & Metas</a></li>
+                    <li><a href="pesquisa.html" class="nav-link">Pesquisa</a></li>
+                    <li><a href="pesquisadores.html" class="nav-link">Pesquisadores</a></li>
+                    <li><a href="acoes.html" class="nav-link">Ações</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="actions-section" style="padding-top: 140px;">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sobre</span>
+                <h2 class="section-title">Quem Somos?</h2>
+            </div>
+            
+            <div class="actions-container" style="gap: 40px;">
+                <!-- CARROSSEL USANDO ESTRUTURA DAS AÇÕES -->
+                <div class="action-item">
+                    <div class="action-carousel-container">
+                        <div class="action-carousel" id="carousel-sobre">
+                            <div class="action-carousel-slide active"><img src="carousel-1.jpeg" alt="Grupo GEPERA"></div>
+                            <div class="action-carousel-slide"><img src="carousel-2.jpeg" alt="Grupo GEPERA"></div>
+                            <div class="action-carousel-slide"><img src="carousel-3.jpeg" alt="Grupo GEPERA"></div>
+                            <div class="action-carousel-slide"><img src="carousel-4.jpeg" alt="Grupo GEPERA"></div>
+                            <div class="action-carousel-slide"><img src="carousel-5.jpeg" alt="Grupo GEPERA"></div>
+                            <div class="action-carousel-slide"><img src="carousel-6.jpeg" alt="Grupo GEPERA"></div>
+                        </div>
+                        <div class="action-carousel-dots" id="dots-sobre"></div>
+                    </div>
+                </div>
+                
+                <!-- TEXTO -->
+                <div style="padding: 0 20px;">
+                    <p style="margin-bottom: 24px; color: var(--text-gold); font-size: 17px; line-height: 1.9; text-align: justify;">O Grupo de Estudos e Pesquisa em Ensino Religioso na Amazônia (Gepera) foi criado em novembro de 2015, com o intuito de preencher a lacuna na área da Religião e Educação, tendo em vista a possibilidade de ampliar, ao mesmo tempo, o campo de estudos e pesquisas na área do Ensino Religioso. Dessa forma, a existência institucional deste é resultante do esforço e, porque não dizer, da militância e engajamento político-acadêmico de professores e pesquisadores que, nos últimos anos, vinham desenvolvendo suas atividades profissionais, quase que exclusivamente, na graduação dessa área, os quais se sentiram motivados a discutir questões relacionadas ao fenômeno religioso, mediante o diálogo interdisciplinar com a educação</p>
+                    <p style="margin-bottom: 24px; color: var(--text-gold); font-size: 17px; line-height: 1.9; text-align: justify;">A partir de 2023, o grupo intensificou a articulação entre a Licenciatura e a Pós-Graduação em Ciências da Religião, fortalecendo ações de pesquisa, extensão universitária e parcerias com outros grupos. O Gepera promove anualmente eventos científicos, como painéis, exposições e colóquios, integrando ensino, pesquisa e extensão, com participação ativa de docentes e discentes da graduação e pós-graduação.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                </div>
+                <div class="footer-links"><h4>Links Rápidos</h4><ul><li><a href="index.html">Página Inicial</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="objetivos.html">Objetivos & Metas</a></li><li><a href="pesquisa.html">Pesquisa</a></li><li><a href="pesquisadores.html">Pesquisadores</a></li><li><a href="acoes.html">Ações</a></li></ul></div>
+                <div class="footer-contact"><h4>Contato</h4><p>Universidade do Estado do Pará</p><p>Licenciatura e Pós-Graduação em<br>Ciências da Religião</p></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2026 GEPERA - Todos os direitos reservados</p></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

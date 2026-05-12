@@ -1,0 +1,27 @@
+{
+  "name": "gepera-site",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Portal acadêmico GEPERA com Next.js, admin e banco SQLite",
+  "scripts": {
+    "dev": "next dev -p 4173",
+    "build": "next build",
+    "start": "next start -p 4173",
+    "seed": "node scripts/seed-db.mjs",
+    "check": "node --check script.js && node --check site-data.js && node --check server.js && node --check scripts/seed-db.mjs",
+    "legacy:start": "node server.js",
+    "legacy:check": "node --check script.js && node --check site-data.js && node --check server.js"
+  },
+  "dependencies": {
+    "butter-scroll": "^0.0.1-alpha.8",
+    "gsap": "^3.15.0",
+    "jquery": "^4.0.0",
+    "lucide-react": "^1.14.0",
+    "next": "^16.0.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  }
+}
