@@ -13,13 +13,13 @@
     "legacy:check": "node --check script.js && node --check site-data.js && node --check server.js"
   },
   "dependencies": {
-    "butter-scroll": "^0.0.1-alpha.8",
-    "gsap": "^3.15.0",
-    "jquery": "^4.0.0",
+    "animejs": "^4.4.1",
     "lucide-react": "^1.14.0",
+    "mapbox-gl": "^3.23.1",
     "next": "^16.0.7",
     "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "react-dom": "^19.2.1",
+    "swiper": "^12.1.4"
   },
   "overrides": {
     "postcss": "^8.5.10"

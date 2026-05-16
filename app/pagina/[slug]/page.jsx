@@ -1,5 +1,5 @@
 import SiteChrome from "@/components/SiteChrome";
-import { PageIntro, Section } from "@/components/Blocks";
+import { CustomContentDashboard } from "@/components/DashboardSections";
 import { publicData } from "@/lib/content";
 
 export const dynamic = "force-dynamic";
@@ -16,20 +16,7 @@ export default async function CustomPage({ params }) {
 
   return (
     <SiteChrome data={data}>
-      <PageIntro eyebrow={page.eyebrow} title={page.title} lead={page.intro} />
-      <Section>
-        <div className="cards-grid-next two">
-          {(page.sections || []).map((section) => (
-            <article className="content-card" key={section.title}>
-              {section.image && <img src={section.image.startsWith("/") ? section.image : `/${section.image}`} alt="" />}
-              <div>
-                <h3>{section.title}</h3>
-                <p>{section.body}</p>
-              </div>
-            </article>
-          ))}
-        </div>
-      </Section>
+      <CustomContentDashboard data={data} page={page} />
     </SiteChrome>
   );
 }

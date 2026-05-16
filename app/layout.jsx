@@ -1,3 +1,6 @@
+import "swiper/css";
+import "swiper/css/pagination";
+import "mapbox-gl/dist/mapbox-gl.css";
 import "./globals.css";
 
 export const metadata = {
